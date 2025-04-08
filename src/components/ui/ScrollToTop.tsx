@@ -28,7 +28,7 @@ export function ScrollToTop() {
 
         {/* Tooltip */}
         <span className="absolute right-full mr-2 px-2 py-1 text-sm text-white bg-gray-900 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
-          Scroll to top
+        Go to Top
         </span>
       </button>
     )

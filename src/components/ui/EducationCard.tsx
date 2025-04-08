@@ -43,7 +43,7 @@ export function EducationCard({
             {/* Score */}
             <div className="flex items-center gap-1 text-gray-600 dark:text-gray-400">
               <Award className="w-4 h-4" />
-              <span className="text-sm">Score: {score}</span>
+              <span className="text-sm">Result: {score}</span>
             </div>
           </div>
         </div>
