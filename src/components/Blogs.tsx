@@ -26,7 +26,7 @@ export function Blogs() {
             {/* "See All Blogs" Button */}
             <div className="mt-10 text-center">
               <a
-                href="https://www.quora.com/How-do-I-code-a-blog-from-scratch"
+                href="https://ankitghamdan.hashnode.dev"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-6 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-md hover:bg-blue-700 transition-all"
