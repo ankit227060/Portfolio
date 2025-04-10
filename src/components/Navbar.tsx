@@ -91,7 +91,7 @@ export function Navbar() {
               href="#contact"
               className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-blue-600 text-white text-sm hover:bg-blue-700 hover:text-white dark:text-white dark:hover:text-white"
             >
-              Request a Project
+              Work for Ankit
               <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" />
             </Link>
           </div>
@@ -130,7 +130,7 @@ export function Navbar() {
                 className="flex items-center justify-center gap-2 px-3 py-1.5 rounded-lg bg-blue-600 text-white text-sm hover:bg-blue-700 hover:text-white dark:text-white dark:hover:text-white"
                 onClick={() => setIsOpen(false)}
               >
-                Request a Project
+                Work for Ankit
                 <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" />
               </Link>
             </div>

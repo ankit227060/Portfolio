@@ -13,7 +13,7 @@ export function Blogs() {
 
         {loading ? (
           <p className="text-center text-gray-500 dark:text-gray-400">
-            Loading blogs...
+            Loading...
           </p>
         ) : (
           <>
@@ -26,12 +26,12 @@ export function Blogs() {
             {/* "See All Blogs" Button */}
             <div className="mt-10 text-center">
               <a
-                href="https://deepakmodi.hashnode.dev/"
+                href="https://www.quora.com/How-do-I-code-a-blog-from-scratch"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-6 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-md hover:bg-blue-700 transition-all"
               >
-                View More Articles →
+                View More →
               </a>
             </div>
           </>

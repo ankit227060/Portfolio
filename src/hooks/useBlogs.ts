@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const HASHNODE_API = "https://gql.hashnode.com/";
-const USERNAME = "deepakmodi"; // Hashnode username
+const USERNAME = "ankitghamdan"; // Hashnode username
 
 interface Blog {
   title: string;

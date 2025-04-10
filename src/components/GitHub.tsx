@@ -27,11 +27,11 @@ export function GitHub() {
     const [user, setUser] = useState<UserProfile | null>(null);
 
     useEffect(() => {
-        fetch("https://api.github.com/users/decodewithdeepak")
+        fetch("https://api.github.com/users/ankitghamdan")
             .then((response) => response.json())
             .then((data: UserProfile) => setUser(data));
 
-        fetch("https://api.github.com/users/decodewithdeepak/repos?sort=pushed&direction=desc&per_page=3")
+        fetch("https://api.github.com/users/ankit227060/repos?sort=pushed&direction=desc&per_page=3")
             .then((response) => response.json())
             .then((data) =>
                 setRepos(
@@ -57,7 +57,7 @@ export function GitHub() {
                     {/* Card-like container for the GitHub calendar */}
                     <div className="w-full p-6 border border-gray-300 dark:border-gray-600 rounded-lg shadow-lg">
                         <GitHubCalendar
-                            username="decodewithdeepak"
+                            username="ankit227060"
                             blockSize={14.6}
                             blockMargin={5}
                             colorScheme="light"
@@ -68,9 +68,9 @@ export function GitHub() {
                     </div>
 
                     <p className="mt-8 text-lg text-center text-gray-600 dark:text-gray-300 max-w-5xl">
-                        My GitHub contributions reflect my consistent commitment to open-source development
-                        and personal projects. Explore my repositories to learn more about the projects I've worked on
-                        and the skills I bring to the table.
+                    I actively contribute to open-source and enjoy building personal projects that challenge
+                    and grow my skills. Dive into my GitHub repositories to see what 
+                    I’ve been working on and get a glimpse of the technologies and ideas I’m passionate about.
                     </p>
                 </div>
 

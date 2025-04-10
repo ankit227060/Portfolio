@@ -7,34 +7,48 @@ import "slick-carousel/slick/slick-theme.css";
 
 const certifications = [
   {
-    title: "Generative AI",
-    issuer: "Microsoft & LinkedIn",
-    date: "Nov 2023",
-    link: "https://www.linkedin.com/learning/certificates/4b0455567c3cfda25e8ef1896c3639f05112af66ace4292ed1004466ef830c94",
-    image: "https://media.licdn.com/dms/image/v2/D4D22AQH9Bl60mLooEA/feedshare-shrink_1280/feedshare-shrink_1280/0/1693230478401?e=2147483647&v=beta&t=D95AvRlyCt7mPdJFFCCtaIbkvxz_EcmG0CAReYysB_E",
+    title: "Data Analytics with Specialisation in Tableau Worshop",
+    issuer: "Jobaaj Learnings",
+    date: "Jul 2024",
+    link: "https://www.jobaajlearnings.com/certificate?file=certificate-117262-37-0.jpeg",
+    image: "https://cdn.nishtyainfotech.com/learnings/certificates/certificate-117262-37-0.jpeg",
   },
   {
-    title: "Python 3 Ultimate Guide",
-    issuer: "Udemy",
-    date: "Oct 2023",
-    link: "https://www.udemy.com/certificate/UC-35cedd32-ccc1-4377-b9ef-e8fabda1f457/",
-    image: "https://udemy-certificate.s3.amazonaws.com/image/UC-35cedd32-ccc1-4377-b9ef-e8fabda1f457.jpg?v=1697713760000",
+    title: "Artificial Intelligence",
+    issuer: "Great Learning",
+    date: "Aug 2024",
+    link: "https://olympus.mygreatlearning.com/courses/61717/certificate",
+    image: "https://dtmvamahs40ux.cloudfront.net/ComplementaryCourseCertificate/5171217/original/Ankit20240811-71-r749p5.jpg",
   },
   {
-    title: "PW Backend Development Course",
-    issuer: "Physics Wallah",
-    date: "Mar 2024",
-    link: "https://pwskills.com/learn/certificate/1e3f9e1e-9108-4685-bfa0-6325856f3823/",
-    image: "https://i.ibb.co/gMvXCmVQ/1e3f9e1e-9108-4685-bfa0-6325856f3823-1.png",
+    title: "Front End Development - CSS",
+    issuer: "Great Learning",
+    date: "Jul 2024",
+    link: "https://olympus.mygreatlearning.com/courses/12800/certificate",
+    image: "https://dtmvamahs40ux.cloudfront.net/ComplementaryCourseCertificate/5065938/original/Ankit20240724-69-1j3w1y6.jpg",
   },
   {
-    title: "JAVA Course - Mastering the Fundamentals",
-    issuer: "Scaler",
-    date: "Mar 2024",
-    link: "https://moonshot.scaler.com/s/image/li/8T4eLNJyeF",
-    image: "https://moonshot.scaler.com/s/image/li/8T4eLNJyeF?scope=body",
+    title: "Java Programming",
+    issuer: "Great Learning",
+    date: "Jul 2024",
+    link: "https://olympus.mygreatlearning.com/courses/12385/certificate",
+    image: "https://dtmvamahs40ux.cloudfront.net/ComplementaryCourseCertificate/5171205/original/Ankit20240811-71-1tkyo6d.jpg",
+  }, 
+  {
+    title: "Python",
+    issuer: "Great Learning",
+    date: "Aug 2024",
+    link: "https://olympus.mygreatlearning.com/courses/12682/certificate",
+    image: "https://dtmvamahs40ux.cloudfront.net/ComplementaryCourseCertificate/5171270/original/Ankit20240811-71-5nvnhv.jpg",
+  }, 
+  {
+    title: "React Js",
+    issuer: "Great Learning",
+    date: "Aug 2024",
+    link: "https://olympus.mygreatlearning.com/courses/52045/certificate",
+    image: "https://dtmvamahs40ux.cloudfront.net/ComplementaryCourseCertificate/5171244/original/Ankit20240811-71-1nuzxus.jpg",
   },
-];
+  ];
 
 export function Certifications() {
   const settings = {
@@ -56,7 +70,7 @@ export function Certifications() {
   return (
     <section id="certifications" className="py-20 bg-gray-50 dark:bg-gray-800">
       <div className="container mx-auto px-8">
-        <SectionTitle>Certifications</SectionTitle>
+        <SectionTitle>Certificates</SectionTitle>
         <Slider {...settings} className="max-w-6xl mx-auto">
           {certifications.map((cert) => (
             <div key={cert.title} className="px-4">
