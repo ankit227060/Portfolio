@@ -1,50 +1,71 @@
-# Deepak Modi - Portfolio Website for a Full Stack Developer
+# Ankit - Portfolio
 
-Welcome to **My Portfolio**! This is my personal portfolio for showcasing my skills, projects, experience, education, certifications, and more. It’s built using React, TypeScript, Tailwind CSS, and other modern web technologies. It fetches data from various APIs to display the latest information, such as GitHub repositories, LeetCode submissions, and blogs. The portfolio is responsive, interactive, and optimized for performance.
+Welcome to my personal developer portfolio — a space where I present my journey in tech, including my skills, featured projects, work experience, academic background, certifications, and more.
+Crafted using modern web technologies like React, TypeScript, and Tailwind CSS, this site offers an interactive and responsive experience across all devices.
 
-Check it out live at: [https://deepakmodi.vercel.app/](https://deepakmodi.vercel.app/)
+It also integrates with multiple APIs to dynamically showcase my latest GitHub repositories and LeetCode activity — all optimized for speed, performance, and a clean user interface.
 
----
+Check it out live at: [https://ankiitt.vercel.app/]
+
 
 ## 🚀 Features
 
-- **Responsive Design**: The portfolio adjusts to all screen sizes, ensuring an optimal experience on both desktop and mobile devices.
-- **Smooth Animations**: Interactive elements, hover effects, and smooth scrolling give the user a pleasant experience.
-- **Dynamic Content**: Fetches data from various APIs to display the latest information, such as GitHub repositories, LeetCode submissions, and blogs.
-- **Interactive Icons**: Utilizes Lucide icons for a modern and interactive design.
-- **SVG Signature Animation**: Framer-Motion is used to animate the SVG signature on the loading page.
-- **Dark Mode**: Built with dark mode support using a simple toggle to switch between light and dark themes.
-- **Custom Sections**:
-  - **Home**: Introduction, Typewriter effect with dynamic roles, and links to key sections.
-  - **About**: A section that provides more insight into my background and skills.
-  - **Skills**: Displays my technical skills, organized by categories.
-  - **Projects**: Showcase of personal and professional projects.
-  - **GitHub**: Fetches and displays my GitHub repositories with a link to view the profile.
-  - **LeetCode**: Fetches and displays my LeetCode submissions.
-  - **Badges**: Displays badges from various platforms like GitHub, LeetCode, and HackerRank.
-  - **Blogs**: Fetches and displays my blogs from Hashnode API.
-  - **Experience**: Details about my work experience with a timeline layout.
-  - **Education**: My academic journey including degree and institution.
-  - **Certifications**: Certificates and courses completed with a link to verify.
-  - **Contact**: A form to reach out to me directly.
-- **SEO Optimized**: Ensures visibility on search engines.
-- **Performance Optimized**: Optimized for fast loading with minimal web vitals.
+**Fully Responsive Layout** : Designed to look great and function smoothly across all devices—from big desktop screens to mobile phones.
 
----
+**Smooth UI/UX Animations** : Clean transitions, subtle hover effects, and fluid scrolling bring the interface to life.
 
-## 📂 **Directory Structure**
+**Live Data Integration** : Automatically pulls in the latest from GitHub, LeetCode, and blogs to keep the content up-to-date.
+
+**Modern Iconography** : Uses Lucide icons for a clean and interactive look throughout the site.
+
+**Animated Loading Screen** : Features a unique animated SVG signature using Framer Motion for an engaging first impression.
+
+**Dark & Light Mode Support** : Switch between light and dark themes instantly with a smooth toggle
+
+
+# Personalized Sections
+
+**Home** : A quick intro with a typewriter effect and links to major sections.
+
+**About** : A brief snapshot of who I am and what I do.
+
+**Skills** : Categorized display of all my tech stack and tools.
+
+**Projects** : Detailed showcase of the work I’ve done so far.
+
+**GitHub** : Auto-updating GitHub repo highlights.
+
+**LeetCode** : Shows my recent coding challenges and solutions.
+
+**Badges** : Verified achievements from coding platforms.
+
+**Blogs** : Displays my blog posts fetched directly from Hashnode.
+
+**Experience** : Work history with a clean vertical timeline layout.
+
+**Education** : My academic path with institution details.
+
+**Certifications** : Courses and certifications with verification links.
+
+**Contact** : Easy-to-use form to get in touch directly.
+
+**Search Engine Friendly** : Built with SEO in mind for better visibility.
+
+**Fast & Optimized** : Loads quickly and is built for performance.
+
+# Directory Structure
 ```
-└── decodewithdeepak-portfolio/
-    ├── README.MD
-    ├── LICENSE
+└── Portfolio/
+    ├── postcss.config.js
+    ├── tsconfig.node.json
     ├── eslint.config.js
     ├── index.html
     ├── package.json
-    ├── postcss.config.js
+    ├── README.MD
     ├── tailwind.config.js
     ├── tsconfig.app.json
     ├── tsconfig.json
-    ├── tsconfig.node.json
+    ├── LICENSE
     ├── vite.config.ts
     ├── public/
     │   └── assets/
@@ -96,43 +117,28 @@ Check it out live at: [https://deepakmodi.vercel.app/](https://deepakmodi.vercel
             └── useTheme.ts
 ```
 
----
+#  Core Technologies
 
-## 🛠 Technologies Used
+**React** – Handles the UI with a component-based architecture for a smooth and dynamic user experience.
 
-- **React**: JavaScript library for building the user interface.
-- **TypeScript**: A superset of JavaScript that adds type safety and improves code quality.
-- **Tailwind CSS**: A utility-first CSS framework to rapidly build custom designs.
-- **Lucide Icons**: Used for interactive and sleek icons.
-- **Vercel**: For fast deployment and hosting.
-- **GitHub API**: To fetch and display repositories.
-- **Hashnode API**: To fetch and display latest blogs.
-- **Framer-Motion**: For svg signature loading animation.
+**TypeScript** – Adds strong typing to JavaScript, making the codebase more robust and easier to manage.
 
----
+**Tailwind CSS** – Speeds up styling with utility-first classes, making it simple to create a clean and responsive design.
 
-## 📸 Screenshots
+**Lucide Icons** – Provides a modern set of icons that blend seamlessly with the design for a polished feel.
 
-Here’s a glimpse of the portfolio:
+**Vercel** – Used for quick and reliable deployment with built-in performance optimizations.
 
-![Home Screenshot](./public/assets/portfolio.png)
+**GitHub API** – Pulls in my latest repositories and updates to keep the projects section dynamic.
 
----
+**Hashnode API** – Fetches and displays my recent blog posts automatically.
 
-## 📜 License
+**Framer Motion** – Adds subtle animations, including an SVG handwriting effect on the loading screen, for a touch of personality.
 
-This project is licensed under the MIT License - see the `LICENSE` file for details.
+# Contact
 
----
+**Website**: [ankiitt.vercel.app]
+**LinkedIn**: [linkedin.com/in/ankitghamdan]
+**Email**: [mr.ankit910@gmail.com]- 
 
-## 📬 Contact
-
-Feel free to reach out to me through any of the following channels:
-
-- **Email**: [deepakmodi8676@gmail.com](mailto:deepakmodi8676@gmail.com)
-- **LinkedIn**: [linkedin.com/in/deepakmodi1](https://linkedin.com/in/deepakmodi1)
-- **Website**: [deepakmodi.vercel.app](https://deepakmodi.vercel.app)
-
----
-
-### 🔥 Made with ❤️ by **Deepak Modi**
+# Made with ❤️ by Ankit
