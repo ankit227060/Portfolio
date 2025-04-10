@@ -40,7 +40,7 @@ export function BlogCard({ title, brief, coverImage, slug }: BlogCardProps) {
         </p>
       </div>
 
-      {/* Read More Button */}
+      {/* See More Button */}
       <div className="px-5 pb-4">
         <span className="inline-block text-sm font-medium text-blue-600 dark:text-blue-400 hover:underline">
           See More →
