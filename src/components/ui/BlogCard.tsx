@@ -10,7 +10,7 @@ interface BlogCardProps {
 export function BlogCard({ title, brief, coverImage, slug }: BlogCardProps) {
   return (
     <a
-      href={`https://deepakmodi.hashnode.dev/${slug}`}
+      href={`https://ankitghamdan.hashnode.dev/${slug}`}
       target="_blank"
       rel="noopener noreferrer"
       className="group block overflow-hidden rounded-xl shadow-lg border border-gray-300 dark:border-gray-700 hover:border-blue-500 dark:hover:border-blue-400 bg-white dark:bg-gray-900 hover:shadow-xl"
